@@ -6,13 +6,15 @@
 #    By: jparnahy <jparnahy@student.42.rio>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/02 19:15:54 by jparnahy          #+#    #+#              #
-#    Updated: 2024/05/02 19:22:31 by jparnahy         ###   ########.fr        #
+#    Updated: 2024/05/09 21:13:20 by jparnahy         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
 
-SRC = #funções/programas
+SRC = main.c \
+      init.c \
+      op_utils.c 
 
 OBJS = $(SRC:.c=.o)
 
