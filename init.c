@@ -6,7 +6,7 @@
 /*   By: jparnahy <jparnahy@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/08 18:40:51 by jparnahy          #+#    #+#             */
-/*   Updated: 2024/05/09 21:25:46 by jparnahy         ###   ########.fr       */
+/*   Updated: 2024/05/10 20:10:28 by jparnahy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,7 +105,6 @@ int	init(t_data *data, int c, char **v)
 		}
 		if (!push_node(&data->to_a, ft_atol(v[c])))
 			return(0);
-
 	}
 	return (1);
 }

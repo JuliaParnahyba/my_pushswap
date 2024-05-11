@@ -6,7 +6,7 @@
 /*   By: jparnahy <jparnahy@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 18:55:57 by jparnahy          #+#    #+#             */
-/*   Updated: 2024/05/10 18:56:06 by jparnahy         ###   ########.fr       */
+/*   Updated: 2024/05/10 19:56:39 by jparnahy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ int	ft_strcmp(char *s1, char *s2)
 long int	ft_atol(char *str)
 {
 	long int	nbr;
-	int		i;
-	int		sig;
+	int			i;
+	int			sig;
 
 	nbr = 0;
 	i = 0;
@@ -83,6 +83,6 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ptr = (void *)malloc(full_size);
 	if (!ptr)
 		return (NULL);
-	ft_bzero(ptr,full_size);
+	ft_bzero(ptr, full_size);
 	return (ptr);
 }
